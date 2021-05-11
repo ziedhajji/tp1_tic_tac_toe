@@ -5,6 +5,10 @@ body{
 
 }
 
+.global2 {
+    display: flex;
+    flex-direction: row;
+}
 .casediv2{
 
     background-color: #FFFF77;
@@ -87,6 +91,7 @@ body{
     padding: 10px;
     font-weight: bold;
     margin:1px;
+    height: 30px;
 
 
 }
@@ -100,7 +105,7 @@ img{
     background-color: #7777FF;
     border:1px solid blue;
     width: 150px;
-    height: 20px;
+    height: 30px;
     margin-top: 5px;
     padding: 10px;
     text-align: center;
@@ -110,43 +115,50 @@ img{
     background-color: #FF7777;
     border: red 1px solid;
     width: 150px;
-    height: 20px;
+    height: 30px;
     margin-top: 5px;
     padding: 10px;
     text-align: center;
 
 }
-
+.gagne{
+    width: 150px;
+    height: 30px;
+    background-color: #FFFF77;
+    padding: 10px;
+    font-weight: bold;
+    margin:1px;
+    position: fixed;
+    top: 195px;
+}
 
 @media screen and (max-width : 800px){
-
+/*Classe du div qui englobe les deux paragraphe title et lien*/
 .classTitle{
     display: flex;
     flex-direction: column;
 
 }
-
+/*Lien de la page principale*/
     .lien{
-
-
         margin-left:30px;
-
-
     }
+
+    /*Titre de la page principale*/
     .title{
 
         margin-left:50px;
         margin-bottom: 5px;
 
      }
-
+/*La section principale qui englobe le tout*/
     .global2{
         display: flex;
         flex-direction: column;
 
     }
 
-
+/*Retour à la page principale*/
     .PagePrincipal2
     {
 
@@ -155,10 +167,11 @@ img{
 
 
     }
+    /*div du titre */
     .jeuxTicTac2{
 
         width: 150px;
-        height: 20px;
+        height: 30px;
         font-weight: bold;
         margin-left: 30px;
         margin-top: 5px;
@@ -173,19 +186,12 @@ img{
     {
         margin-left: 27px;
     }
-}
+/*classe du joueur gagnant*/
+    .gagne{
 
-@media screen and (min-width : 801px){
-
-
-
-
-    .global2{
-        display: flex;
-        flex-direction: row;
-
-
+        position: fixed;
+        top: 590px;
+        left: 100px;
     }
-
-
 }
+
