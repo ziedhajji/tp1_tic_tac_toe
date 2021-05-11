@@ -91,7 +91,7 @@ body{
     padding: 10px;
     font-weight: bold;
     margin:1px;
-    height: 30px;
+    height: 34px;
 
 
 }
@@ -105,7 +105,7 @@ img{
     background-color: #7777FF;
     border:1px solid blue;
     width: 150px;
-    height: 30px;
+    height: 34px;
     margin-top: 5px;
     padding: 10px;
     text-align: center;
@@ -115,7 +115,7 @@ img{
     background-color: #FF7777;
     border: red 1px solid;
     width: 150px;
-    height: 30px;
+    height: 34px;
     margin-top: 5px;
     padding: 10px;
     text-align: center;
@@ -123,13 +123,13 @@ img{
 }
 .gagne{
     width: 150px;
-    height: 30px;
+    height: 34px;
     background-color: #FFFF77;
     padding: 10px;
     font-weight: bold;
     margin:1px;
     position: fixed;
-    top: 195px;
+    top: 192px;
 }
 
 @media screen and (max-width : 800px){
@@ -171,7 +171,7 @@ img{
     .jeuxTicTac2{
 
         width: 150px;
-        height: 30px;
+        height: 20px;
         font-weight: bold;
         margin-left: 30px;
         margin-top: 5px;
@@ -181,17 +181,21 @@ img{
     .joueurx{
 
         margin-left: 27px;
+        height: 20px;
+
     }
     .joueuro
     {
         margin-left: 27px;
+        height: 20px;
     }
 /*classe du joueur gagnant*/
     .gagne{
 
         position: fixed;
-        top: 590px;
+        top: 557px;
         left: 100px;
+        height: 20px;
     }
 }
 

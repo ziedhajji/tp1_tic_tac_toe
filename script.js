@@ -8,7 +8,7 @@ function jouer(element)
 {
     let cochez=document.getElementById("coche");
 
-    if(element.innerHTML==="X" ||element.innerHTML==="O")
+    if(element.innerHTML==="X" || element.innerHTML==="O")
     {
 
         cochez.innerHTML="Cochez une case vide !";
@@ -127,5 +127,22 @@ function XOgagne() {
         gagne.innerHTML = "O gagne!";
         gagne.setAttribute("class", "gagne");
     }
+
+    let occ=0;
+    for (let i=0 ; i<tab.length;i++)
+    {
+        if(tab[i]!=="")
+        {
+            occ++;
+        }
+    }
+    if(occ===9 && etat !==(1 || 2))
+    {
+        gagne.innerHTML = "Partie nulle !";
+        gagne.setAttribute("class", "gagne");
+        let a= document.getElementById("image");
+        a.setAttribute("src","imgnulle.png");
+    }
+
 }
 
